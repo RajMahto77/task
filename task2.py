@@ -39,8 +39,8 @@ def main():
             print("Invalid choice! Please select 1, 2, or 3.")
             continue
         
-        input_path = input("Enter the input image path (e.g., input.png): ").strip('"')
-        output_path = input("Enter the output image path (e.g., output.png): ").strip('"')
+        input_path = input("Enter the input image path (e.g., input.png): ").strip('"')  #provide your image path here in png format
+        output_path = input("Enter the output image path (e.g., output.png): ").strip('"') # new image create as per your name that you provide in.
         
         try:
             key = int(input("Enter the key (0-255): "))
@@ -57,4 +57,5 @@ def main():
         print(f"{action} image saved to {output_path}")
 
 if __name__ == "__main__":
+
     main()
